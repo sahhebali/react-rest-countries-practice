@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="copyright">
-            <h4>CopyRight Footer</h4>
+            <p>CopyRight Footer</p>
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Footer from '../../Footer/Footer';
+
 import Country from '../Country/Country';
+import Footer from '../Footer/Footer';
 import './Countries.css'
 
 const Countries = () => {
