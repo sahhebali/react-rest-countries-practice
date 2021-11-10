@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Countries from './components/Countries/Countries';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Test></Test>
+      <Countries></Countries>
+
     </div>
   );
 }
 
 export default App;
+
+
+function Test() {
+  return (
+    <div className="test">
+      <h1> This is a Pracktice Component</h1>
+
+    </div>
+  )
+}
